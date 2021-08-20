@@ -15,7 +15,6 @@
     ],
     "require": {
         "drush/drush": "^10",
-        "emulsify-ds/emulsify-drupal": "^3.0",
         "pantheon-upstreams/upstream-configuration": "*"
     },
     "conflict": {
