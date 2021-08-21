@@ -1,0 +1,22 @@
+uuid: b34654ee-7ccc-4905-a59c-155e52187603
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ginormous_elephant
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ginormous_elephant_content
+theme: ginormous_elephant
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

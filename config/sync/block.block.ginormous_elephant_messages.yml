@@ -1,0 +1,22 @@
+uuid: aeea6cde-641a-4a60-a886-944847f02b90
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ginormous_elephant
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ginormous_elephant_messages
+theme: ginormous_elephant
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

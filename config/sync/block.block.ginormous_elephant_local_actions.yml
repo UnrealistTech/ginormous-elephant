@@ -1,0 +1,20 @@
+uuid: 1619ed0b-09a5-4999-a8d2-a7036b097c89
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ginormous_elephant
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ginormous_elephant_local_actions
+theme: ginormous_elephant
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

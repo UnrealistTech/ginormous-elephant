@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a191cf16cb7512e9d66c63060ddbd2eb",
+    "content-hash": "565662e90f375a2d55caacd8f353f1cc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1320,6 +1320,55 @@
             "time": "2020-10-27T21:46:55+00:00"
         },
         {
+            "name": "drupal/components",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/components.git",
+                "reference": "8.x-2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "9b083c2f845ff2e1a1632efcf24f88cecd7479cc"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.4",
+                    "datestamp": "1618861606",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095",
+                    "email": "virtually.johnalbin@gmail.com"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                }
+            ],
+            "description": "Registers folders of components defined by your theme or module as Twig namespaces",
+            "homepage": "https://drupal.org/project/components",
+            "support": {
+                "source": "https://git.drupalcode.org/project/components"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "9.3.x-dev",
             "source": {
@@ -1709,6 +1758,70 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.3.x"
             },
             "time": "2021-07-29T06:53:11+00:00"
+        },
+        {
+            "name": "drupal/emulsify_twig",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/emulsify_twig.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/emulsify_twig-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "22eec73344aadd0004f58b39d3b8774a7d1dcbd8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1591387856",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Stanush",
+                    "homepage": "https://www.drupal.org/user/89718"
+                },
+                {
+                    "name": "bjlewis2",
+                    "homepage": "https://www.drupal.org/user/223774"
+                },
+                {
+                    "name": "ccjjmartin",
+                    "homepage": "https://www.drupal.org/user/3210801"
+                },
+                {
+                    "name": "evanmwillhite",
+                    "homepage": "https://www.drupal.org/user/562168"
+                },
+                {
+                    "name": "fk_bender",
+                    "homepage": "https://www.drupal.org/user/3539842"
+                },
+                {
+                    "name": "techninja",
+                    "homepage": "https://www.drupal.org/user/132895"
+                }
+            ],
+            "description": "BEM and Add Attributes Twig Extensions for Drupal",
+            "homepage": "https://www.drupal.org/project/emulsify_twig",
+            "support": {
+                "source": "https://git.drupalcode.org/project/emulsify_twig"
+            }
         },
         {
             "name": "drush/drush",

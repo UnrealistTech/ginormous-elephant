@@ -16,14 +16,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  */
 include __DIR__ . "/settings.pantheon.php";
 
-/**
- * Skipping permissions hardening will make scaffolding
- * work better, but will also raise a warning when you
- * install Drupal.
- *
- * https://www.drupal.org/project/drupal/issues/3091285
- */
-// $settings['skip_permissions_hardening'] = TRUE;
+$settings['config_sync_directory'] = '../config/sync';
 
 /**
  * If there is a local settings file, then include it

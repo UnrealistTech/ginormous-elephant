@@ -1,0 +1,25 @@
+uuid: 5d328e53-f296-4573-8c05-9cf5ba8a0a2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ginormous_elephant
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: ginormous_elephant_branding
+theme: ginormous_elephant
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
